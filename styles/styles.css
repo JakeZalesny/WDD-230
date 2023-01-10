@@ -2,7 +2,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-header{
+header {
     display: flex; 
     align-items: center;
     background-color: blueviolet;
@@ -25,4 +25,16 @@ header div:nth-child(2) {
 #content {
     margin: 0 auto; 
     width: 800px;
+}
+
+main h2 {
+    text-align: center;
+}
+
+footer {
+    align-items: center;
+    background-color: blueviolet;
+    color: white; 
+    text-align: center;
+    padding: 1rem; 
 }
