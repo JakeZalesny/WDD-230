@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -12,10 +14,13 @@ header {
 
 header img{
     margin: 1rem; 
+    width: 200px;
+    height: 250px;
 }
 
 header h1 {
     text-align: center;
+    margin-left: -200px;
 }
 
 header div:nth-child(2) {

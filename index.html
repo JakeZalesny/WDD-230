@@ -6,15 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="For WDD230, this is the assignment for Jake Zalesny">
     <title>Assignment: Portal for Jake Zalesny</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./styles/styles.css">
     <script src="./scripts/main.js" defer></script> 
     <!--Defer: don't run script until site is built-->
 </head>
 <body>
+    <audio id="righteous">
+        <source src="./audio/Mo Beats - Righteous (pepe lore song).mp3"></source>
+    </audio>
     <div id="content">
         <header>
             <div>
-
+                <img src="./imgs/photo_for_class_resized.jpg" alt="Photo for Class"  id="image" onmouseenter="playRighteous(); replaceImageWithGif();"
+                onmouseleave="stopRighteous(); undoReplacement();">
             </div>
             <div>
                 <h1>Jake Zalesny</h1>
