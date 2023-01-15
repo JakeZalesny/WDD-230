@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "s1 s1 s1"
+                         "s2 s3 s4";
+    background-color: #A499BE;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#heading {
+    grid-area: s1;
+    color: white;
+    background-color: #2A2E45;
+    border: 2px black solid;
+    border-radius: 25px;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+header h2 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#joji {
+    grid-area: s2; 
+    border: 2px black solid;
+    border-radius: 25px;
+    background-color: #A499BE;
+}
+
+#surfaces {
+    grid-area: s3;
+    border: 2px black solid;
+    border-radius: 25px; 
+    background-color: #A499BE;
+}
+
+#nike {
+    grid-area: s4;
+    border: 2px black solid;
+    border-radius: 25px; 
+    background-color: #A499BE;
+}
+
+div h1 {
+    display: flex;
+    justify-content: center;
+    background-color: #2A2E45;
+    color: white;
+}
+
+div h2 {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px black solid;
+    background-color: #2A2E45;
+    color: white
+}
+
+div img {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 500px;
+    padding-left: 120px;
+    background-color: #A499BE;
+}
+
+div p {
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 450px;
+    border-top: 2px black solid;
+    font-family: 'Sofia Sans', sans-serif;
+}
+
+div a {
+    display: flex; 
+    justify-content: center;
+    border-bottom: 2px black solid;
+}
