@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Sofia+Sans&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #E1E7E0;
+    background-color: #c7ddeb;
     color: black;
 }
 nav ul {
@@ -47,18 +49,25 @@ nav a:hover {
 }
 
 nav ul li:hover {
-    background-color: #6AA4B0;
+    background-color: #2671ab;
     color: white; 
 }
 
 .active {
-    background-color: #6AA4B0; 
+    background-color: #2671ab; 
     color: white;
     text-decoration: none;
 }
 
+div img {
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
 .active-left {
-    background-color: #6AA4B0; 
+    background-color: #2671ab; 
     color: white;
     text-decoration: none;
     border-top-left-radius: 20px;
@@ -66,7 +75,7 @@ nav ul li:hover {
 }
 
 .active-right {
-    background-color: #6AA4B0; 
+    background-color: #2671ab; 
     color: white;
     text-decoration: none;
     border-top-right-radius: 20px;
@@ -83,7 +92,47 @@ div p {
     margin: 20px;
     border: 1px solid black;
     border-radius: 20px;
-    padding: 1rem; 
+    padding: 1rem;
+    max-width: 400px; 
+    font-family: 'Sofia-Sans', sans-serif;
+}
+
+section {
+    display: grid;
+    grid-template-areas: "s1"
+                          "s2";
+}
+
+#persona-one {
+    grid-area: s1;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+
+#persona-two {
+    grid-area: s2;
+    max-width: 400px;
+}
+
+.blue-example {
+    justify-content: center;
+    background-color: #2671ab;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.primary-alternate {
+    background-color: #7093a9;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.secondary-alternate {
+    background-color: #376a91;
+    color: white;
+    font-family: 'Lato', sans-serif;
 }
 
 @media screen and (min-width: 640px) {
