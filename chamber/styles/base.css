@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Sofia+Sans&display=swap');
+
+:root {
+    --main-color: #2671ab;
+    --alternate-color: #7093a9;
+    --final-alternate: #376a91; 
+    --main-background: #c7ddeb;
+    --display-font-family: 'Lato', sans-serif; 
+    --paragraph-font-family: 'Sofia-Sans', sans-serif; 
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: var(--final-alternate);
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+    padding-top: 5px;
+}
+
+header h1 {
+    max-width: 400px;
+    color: white;
+    padding-left: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
