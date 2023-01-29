@@ -9,16 +9,16 @@
     --paragraph-font-family: 'Sofia-Sans', sans-serif; 
 }
 
-header {
+header, footer {
     display: flex;
     justify-content: center;
     background-color: var(--final-alternate);
 }
 
-header img {
+header img, footer img {
     height: 100px;
     width: 100px;
-    padding-top: 5px;
+    padding-top: 5px; 
 }
 
 header h1 {
@@ -31,6 +31,111 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--main-background);
 }
+
+
+.text-divides {
+    display: block;
+    border: 1px black solid; 
+    padding: 10%;
+    margin-top: 20px; 
+    min-width: 400px; 
+}
+
+#navbar {
+    display: none;
+}
+
+#menu-open {
+    display: none;
+}
+
+#menu-close {
+    display: inline; 
+}
+
+#navbar.menu-active {
+    display: flex;
+}
+
+#menu-open.menu-active {
+    display: inline;
+}
+
+#menu-close.menu-active {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem; 
+    list-style: none;
+    background-color: var(--final-alternate);
+    color: white;
+    padding-inline-start: 0px;
+    margin-block: 0px;
+    width: 100%;
+}
+
+nav ul li {
+    border: 1px solid black;
+    width: 100%;
+    padding: 1rem; 
+    margin-bottom: 2px;
+    border-radius: 20px;
+}
+
+nav ul li:hover {
+    background-color: var(--alternate-color);
+}
+
+button {
+    background-color: var(--alternate-color);
+    color: white;
+    border: 0;
+    font-size: 2rem;
+}
+
+.spotlight {
+    border: 1px solid black;
+    margin-top: 20px; 
+    min-width: 300px;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+footer {
+    color: white;
+    font-family: var(--display-font-family);
+}
+
+footer h3 {
+    margin-top: -20px;
+}
+
+footer h4 {
+    margin-top: -10px;
+}
+
+footer h5 a {
+    text-decoration: none;
+    color: white;
+    margin-top: -10px;
+}
+
+footer h5 a:hover {
+    background-color: var(--alternate-color);
+}
+
 
 
