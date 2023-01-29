@@ -137,5 +137,10 @@ footer h5 a:hover {
     background-color: var(--alternate-color);
 }
 
+#join {
+    display: none;
+}
 
-
+.spotlight-3 {
+    display: none;
+}

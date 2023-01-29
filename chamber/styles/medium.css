@@ -1,0 +1,32 @@
+@media screen and (min-width: 640px) {
+    #weather {
+        order: 8;
+        margin-bottom: 20px;
+        min-width: 0.5px;
+        margin-top: -200px;
+        margin-left: 350px;
+    }
+    
+    #event {
+        order: 7;
+        min-width: 150px; 
+        margin-right: 250px;
+
+    }
+
+    #spotlight {
+        display: flex;
+        flex-direction: row;
+        max-width: 200px;
+    }
+
+    .spotlight {
+        /* max-width: 500px; */
+        min-width: 200px;
+    }
+
+    #join {
+        display: grid;
+    }
+
+}

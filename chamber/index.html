@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A chamber of commerce site for the Everett area.">
     <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/medium.css">
+    <link rel="stylesheet" href="./styles/large.css">
     <script src="./scripts/chamber-header-footer.js" defer></script>
+    <script src="./scripts/chamber-reorganize-DOM.js" defer></script>
     <title>Chamber of Commerce Everett</title>
 </head>
 <header>
@@ -29,25 +32,31 @@
 </header>
 <main class="home-main">
     <body>
-        <section class="text-divides"> <!--Hero with Site Name & Call to action-->
+        <section id="hero" class="text-divides"> <!--Hero with Site Name & Call to action-->
             <p>Hero with Site Name & Call to action</p>
         </section>
-        <section class="text-divides"> <!--Event-->
+        <section id="event" class="text-divides"> <!--Event-->
             <p>Event</p>
         </section>
-        <section class="text-divides"> <!--Weather-->
+        <section id="weather" class="text-divides"> <!--Weather-->
             <p>Weather</p>
         </section>
-        <section class="text-divides"> <!--News Release-->
+        <section id="news-release" class="text-divides"> <!--News Release-->
             <p>News Release</p>
-        </section class="text-divides">
-        <section class="text-divides"> <!--Spotlight Container-->
+        </section>
+        <section class="text-divides" id="spotlight"> <!--Spotlight Container-->
             <div class="spotlight"> <!--Spotlight 1-->
                 <p>Spotlight 1</p>
             </div>  
             <div class="spotlight"> <!--Spotlight 2-->
                 <p>Spotlight 2</p>
             </div>
+            <div class="spotlight-3">
+                <p>Spotlight 3</p>
+            </div>
+        </section>
+        <section class="text-divides" id="join"> <!--News Release-->
+            <p>Join</p>
         </section>
     </body>
 </main>
