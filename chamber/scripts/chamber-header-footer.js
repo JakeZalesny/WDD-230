@@ -5,3 +5,7 @@ function toggleMenu() {
 }
 
 document.querySelector("#hamburger-menu").onclick = toggleMenu; 
+
+const fullDate = new Intl.DateTimeFormat("en-US", {dateStyle: "full"}).format(new Date(document.lastModified));
+
+document.querySelector("#last-modified").textContent = "Last Modified: " + fullDate; 
