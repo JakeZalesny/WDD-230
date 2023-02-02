@@ -146,3 +146,11 @@ footer h5 a:hover {
 .spotlight-3 {
     display: none;
 }
+
+#meet-greet {
+    display: none;
+}
+
+#meet-greet.active {
+    display: block;
+}
