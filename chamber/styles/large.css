@@ -6,64 +6,102 @@
                               "s5 s6 s6 s3";
     }
     
+    header h1 {
+        display: block;
+
+    }
+
+    header {
+        background-color: var(--final-alternate);
+    }
+
     #hero {
         grid-area: s2;
-        margin-left: -350px;
-        padding-bottom: 285px;
+        margin-left: 20px;
+        padding-right: 110px;
+        padding-left: 110px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         width: 100px;
-        margin-top: -60px;
+    }
+
+    .text-divides img  {
+        width: 500px;
+    }
+
+    #spotlight img {
+        width: 200px;
+    }
+
+    #hero-text {
+        margin-top: 300px;
+        margin-left: 390px;
+    }
+    .spotlight-3 {
+        border: 1px solid black;
+        margin-top: 20px; 
+        min-width: 300px;
+        min-height: 200px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .spotlight-3 img {
+        width: 200px;
     }
 
     #event {
         grid-area: s1;
         width: 400px;
         padding-bottom: 100px;
-        margin-top: -20px;
+        /* margin-top: -20px; */
     }
 
     #weather {
         grid-area: s4;
         margin-bottom: 0px;
         min-width: 0px;
-        margin-top: 20px;
         margin-left: 0px;
-        width: 400px;
+        width: 300px;
         padding-bottom: 100px;
-        margin-top: -100px;
+        margin-top: 0px;
+        display: grid;
     }
 
     #join {
         grid-area: s5;
         width: 400px;
-        margin-top: -100px;
+        /* margin-top: -100px; */
         padding-bottom: 100px;
     }
 
     #news-release {
         grid-area: s6;
-        margin-left: -350px;
+        margin-left: 40px;
         width: 50px;
         padding-bottom: 100px;
-        margin-top: -100px;
+        margin-bottom: 0px;
     }
 
     #spotlight {
         grid-area: s3;
         display: flex;
         flex-direction: column;
-        max-width: 200px;
-        margin-left: -200px;
+        max-width: 250px;
+        margin: 20px;
     }
     
     .text-divides {
-        padding: 1rem;
-        min-width: 300px;
+        padding: 0.3rem;
+        justify-content: center;
+        max-width: 300px;
     }
     .spotlight-3 {
         display: block;
         border: 1px solid black;
         margin-top: 20px; 
-        min-width: 300px;
+        min-width: 200px;
         min-height: 200px;
         display: flex;
         justify-content: center;

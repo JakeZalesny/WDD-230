@@ -2,27 +2,43 @@
     #weather {
         order: 8;
         margin-bottom: 20px;
-        min-width: 0.5px;
         margin-top: -200px;
         margin-left: 350px;
+        text-align: center;
     }
     
     #event {
         order: 7;
-        min-width: 150px; 
-        margin-right: 250px;
 
+    }
+
+    #logo-img {
+        margin-top: 70px;
+        margin-left: 70px; 
+    }
+
+    #spotlight img {
+        width: 100px;
+    }
+
+    header {
+        background-color: var(--final-alternate);
     }
 
     #spotlight {
         display: flex;
         flex-direction: row;
-        max-width: 200px;
+        max-width: 300px;
+        margin-bottom: -5px;
+    }
+
+    #news-release {
+        margin-bottom: -70px;
     }
 
     .spotlight {
         /* max-width: 500px; */
-        min-width: 200px;
+        min-width: 150px;
     }
 
     #join {

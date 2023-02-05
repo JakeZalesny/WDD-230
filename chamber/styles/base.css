@@ -22,6 +22,10 @@ header img, footer img {
     padding-top: 5px; 
 }
 
+section {
+    display: grid;
+}
+
 header h1 {
     max-width: 400px;
     color: white;
@@ -36,13 +40,54 @@ main {
     font: var(--paragraph-font-family);
 }
 
+body {
+    background-color: var(--main-background);
+}
 
 .text-divides {
-    display: block;
+    /* display: block; */
     border: 1px black solid; 
     padding: 10%;
     margin-top: 20px; 
-    min-width: 400px; 
+    min-width: 300px; 
+}
+
+.text-divides img {
+    width: 350px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+#weather img {
+    width: 300px;
+}
+
+#logo-img{
+    width: 50px;
+    margin-top: 60px;
+    margin-left: 60px;
+    position: absolute; 
+    z-index: 2;
+}
+
+#hero-text {
+    background-color: var(--final-alternate);
+    font-family: var(--paragraph-font-family);
+    color: white;
+    max-width: 100px;
+    border-radius: 20px;
+    padding: 0.5rem;
+    margin-left: 290px;
+    margin-top: 230px;
+    position: absolute;
+    z-index: 2;
+
+}
+
+#hero-text:hover {
+    background-color: var(--alternate-color);
+    color: black;
 }
 
 #navbar {
@@ -106,7 +151,12 @@ button {
     min-width: 300px;
     min-height: 200px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.spotlight img {
+    width: 200px;
 }
 
 footer {
@@ -153,4 +203,21 @@ footer h5 a:hover {
 
 #meet-greet.active {
     display: block;
+}
+
+#weather {
+    display: none;
+}
+
+#spotlight {
+    margin: 90px;
+}
+
+#hero {
+    position: relative;
+    border-radius: 20px;
+}
+
+#event div {
+    text-align: center;
 }
