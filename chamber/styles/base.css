@@ -14,6 +14,7 @@ header, footer {
     justify-content: center;
     background-color: var(--final-alternate);
     font: var(--display-font-family);
+    padding-bottom: 10px;
 }
 
 header img, footer img {
@@ -30,6 +31,7 @@ header h1 {
     max-width: 400px;
     color: white;
     padding-left: 20px;
+    z-index: 1;
 }
 
 main {
@@ -221,3 +223,17 @@ footer h5 a:hover {
 #event div {
     text-align: center;
 }
+
+#last-modified {
+    min-width: 200px;
+    background-color: var(--final-alternate);
+    color: white;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: 70px;
+    font-family: var(--display-font-family);
+}
+
+/* header nav {
+    z-index: 1;
+} */
