@@ -23,14 +23,23 @@
         padding-top: 10px;
         padding-bottom: 10px;
         width: 100px;
+        margin-top: -360px;
     }
 
     .text-divides img  {
         width: 500px;
     }
 
+    #spotlight {
+        border: 0px;
+    }
+
     #spotlight img {
         width: 200px;
+    }
+
+    .spotlight {
+        padding: 0rem;
     }
 
     #hero-text {
@@ -55,7 +64,7 @@
         grid-area: s1;
         width: 400px;
         padding-bottom: 100px;
-        /* margin-top: -20px; */
+        margin-top: -60px;
     }
 
     #weather {
@@ -65,23 +74,24 @@
         margin-left: 0px;
         width: 300px;
         padding-bottom: 100px;
-        margin-top: 0px;
+        margin-top: -150px;
+        margin-bottom: 10px;
         display: grid;
     }
 
     #join {
         grid-area: s5;
         width: 400px;
-        /* margin-top: -100px; */
+         margin-top: -150px;
         padding-bottom: 100px;
     }
 
     #news-release {
         grid-area: s6;
-        margin-left: 40px;
-        width: 50px;
+        margin-left: 20px;
+        max-width: 500px;
         padding-bottom: 100px;
-        margin-bottom: 0px;
+        margin-top: -750px;
     }
 
     #spotlight {
@@ -89,7 +99,8 @@
         display: flex;
         flex-direction: column;
         max-width: 250px;
-        margin: 20px;
+        margin: 10px;
+        margin-top: -2px;
     }
     
     .text-divides {
