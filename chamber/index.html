@@ -11,9 +11,11 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
     <script src="./scripts/chamber-header-footer.js" defer></script>
     <script src="./scripts/chamber-reorganize-DOM.js" defer></script>
+    <script src="./scripts/windchill.js" defer></script>
     <title>Chamber of Commerce Everett</title>
 </head>
 <body>
+    <p id="meet-greet">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
     <header>
         <img src="./imgs/EVC-Logo.jpg" alt="EVC-Logo">
         <h1>Everett Chamber of Commerce</h1>
@@ -37,7 +39,11 @@
             <section id="hero" class="text-divides"> <!--Hero with Site Name & Call to action-->
                 <img id="logo-img" src="./imgs/EVC-Logo.jpg" alt="EVC-Logo">
                 <h3 id="hero-text">Join Now!</h3>
-                <img src="./imgs/Everett_Hero.jpg" alt="Hero Image">
+                <picture>
+                    <source src="./imgs/wdd-org-200.jpg" media="(max-width:640px)">
+                    <source src="./imgs/wdd-org-300.jpg" media="(max-width:800px)">  
+                    <img src="./imgs/wdd230-org.jpg" alt="Hero Image">
+                </picture>
             </section>
             <section id="event" class="text-divides"> <!--Event-->
                 <div>
@@ -49,6 +55,9 @@
             <section id="weather" class="text-divides"> <!--Weather-->
                 <h2>Weather</h2>
                 <img src="./imgs/Weather_Chart.png" alt="Expected Weather">
+                <h3>Temperature: <span id="temperature"></span> &deg;F</h3>
+                <h3>Wind Speed: <span id="windspeed"></span> mph</h3>
+                <h3>Wind Chill: <span id="windchill"></span> &deg;F</h3>
 
             </section>
             <section id="news-release" class="text-divides"> <!--News Release-->

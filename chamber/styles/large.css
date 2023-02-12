@@ -23,15 +23,16 @@
         padding-top: 10px;
         padding-bottom: 10px;
         width: 100px;
-        margin-top: -360px;
+        margin-top: -430px;
+        margin-left: -30px;
     }
 
+    #logo-img {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
     .text-divides img  {
         width: 500px;
-    }
-
-    #spotlight {
-        border: 0px;
     }
 
     #spotlight img {
@@ -40,6 +41,7 @@
 
     .spotlight {
         padding: 0rem;
+
     }
 
     #hero-text {
@@ -64,7 +66,7 @@
         grid-area: s1;
         width: 400px;
         padding-bottom: 100px;
-        margin-top: -60px;
+        margin-top: 10px;
     }
 
     #weather {
@@ -74,15 +76,19 @@
         margin-left: 0px;
         width: 300px;
         padding-bottom: 100px;
-        margin-top: -150px;
         margin-bottom: 10px;
         display: grid;
+        margin-top: 10px;
+    }
+
+    #weather h2{
+        padding-top: 10px; 
     }
 
     #join {
         grid-area: s5;
         width: 400px;
-         margin-top: -150px;
+         margin-top: 10px;
         padding-bottom: 100px;
     }
 
@@ -91,16 +97,18 @@
         margin-left: 20px;
         max-width: 500px;
         padding-bottom: 100px;
-        margin-top: -750px;
+        margin-top: -800px;
+        margin-left: -30px;
     }
 
     #spotlight {
         grid-area: s3;
         display: flex;
         flex-direction: column;
-        max-width: 250px;
-        margin: 10px;
-        margin-top: -2px;
+        max-width: 250px; 
+        margin-top: -70px;
+        margin-left: -60px;
+        border: 0px;
     }
     
     .text-divides {

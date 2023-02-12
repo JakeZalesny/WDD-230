@@ -205,6 +205,13 @@ footer h5 a:hover {
 
 #meet-greet.active {
     display: block;
+    background-color: var(--alternate-color);
+    padding: 0px;
+    margin: 0px;
+}
+
+#margin-modifiers {
+    margin-top: 10px;
 }
 
 #weather {
@@ -232,6 +239,10 @@ footer h5 a:hover {
     margin-top: -20px;
     margin-left: 70px;
     font-family: var(--display-font-family);
+}
+
+body {
+    margin: 0px;
 }
 
 /* header nav {
