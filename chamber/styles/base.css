@@ -245,6 +245,21 @@ body {
     margin: 0px;
 }
 
+#join-button {
+    background-color: var(--final-alternate);
+    font-family: var(--paragraph-font-family);
+    display: flex;
+    color: white;
+    max-width: 100px;
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+
+#join-button:hover {
+    background-color: var(--alternate-color);
+    color: black;
+}
+
 /* header nav {
     z-index: 1;
 } */
