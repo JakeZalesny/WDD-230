@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Sofia+Sans&display=swap');
+
+:root {
+    --main-color: #2671ab;
+    --alternate-color: #7093a9;
+    --final-alternate: #376a91; 
+    --main-background: #c7ddeb;
+    --display-font-family: 'Lato', sans-serif; 
+    --paragraph-font-family: 'Sofia-Sans', sans-serif; 
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--final-alternate);
+    font: var(--display-font-family);
+    padding-bottom: 10px;
+}
+
+header img, footer img {
+    height: 100px;
+    width: 100px;
+    padding-top: 5px; 
+}
+
+header h1 {
+    max-width: 400px;
+    color: white;
+    padding-left: 20px;
+    z-index: 1;
+}
+
+
+#navbar {
+    display: none;
+}
+
+#menu-open {
+    display: none;
+}
+
+#menu-close {
+    display: inline; 
+}
+
+#navbar.menu-active {
+    display: flex;
+}
+
+#menu-open.menu-active {
+    display: inline;
+}
+
+#menu-close.menu-active {
+    display: none;
+}
+
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem; 
+    list-style: none;
+    background-color: var(--final-alternate);
+    color: white;
+    padding-inline-start: 0px;
+    margin-block: 0px;
+    width: 100%;
+}
+
+nav ul li {
+    border: 1px solid black;
+    width: 100%;
+    padding: 1rem; 
+    margin-bottom: 2px;
+    border-radius: 20px;
+}
+
+nav ul li:hover {
+    background-color: var(--alternate-color);
+}
+
+button {
+    background-color: var(--alternate-color);
+    color: white;
+    border: 0;
+    font-size: 2rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+footer {
+    color: white;
+    font-family: var(--display-font-family);
+}
+
+footer h3 {
+    margin-top: -20px;
+}
+
+footer h4 {
+    margin-top: -10px;
+}
+
+footer h5 a {
+    text-decoration: none;
+    color: white;
+    margin-top: -10px;
+}
+
+footer h5 a:hover {
+    background-color: var(--alternate-color);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main img {
+    /* width: 400px; */
+    margin-top: 50px; 
+}
