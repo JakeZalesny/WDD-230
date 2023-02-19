@@ -17,6 +17,11 @@ header, footer {
     padding-bottom: 10px;
 }
 
+header a {
+    text-decoration: none;
+    color: white;
+}
+
 header img, footer img {
     height: 100px;
     width: 100px;
