@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/join-base.css">
+    <script src="./scripts/chamber-header-footer.js" defer></script>
+    <script src="./scripts/chamber-reorganize-DOM.js" defer></script>
+    <title>Join</title>
+</head>
+<body>
+    <header>
+        <a href="./index.html"><img src="./imgs/EVC-Logo.jpg" alt="EVC-Logo"></a>
+        <h1>Everett Chamber of Commerce</h1>
+        <!-- <img src="" alt=""> -->
+        <!-- <img src="" alt=""> -->
+        <nav>
+            <button id="hamburger-menu">
+                <span id="menu-close"> &equiv;</span>
+                <span id="menu-open">X</span>
+            </button>
+            <ul id="navbar">
+                <li><a href="./discover.html">Discover</a></li>
+                <li>Directory</li>
+                <li>Join</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form type="GET" action="thankyou.html">
+            <label for="fname">*First Name: </label><br>
+            <input type="text" id="fname" placeholder="John" name="fname" required><br>
+            <label for="lname">*Last Name: </label><br>
+            <input type="text" id="lname" placeholder="Doe" name="lname" required><br>
+            <label for="business-title">Business Title: </label><br>
+            <input type="text" name="business-title" id="business-title"><br>
+            <label for="email">*Email: </label><br>
+            <input type="email" name="email" placeholder="youremail@business.com" id="email" required><br>
+            <label for="phone-number">*Phone Number: </label><br>
+            <input type="tel" name="phone-number" placeholder="(555) 555-5555" id="phone-number" required><br>
+            <label for="business">*Name of Business: </label><br>
+            <input type="text" name="business" id="business"><br>
+            <label for="nothing">*Desired Membership level: </label><br>
+            <input type="radio" name="NP" id="NP">
+            <label for="NP">NP Organization</label><br>
+            <input type="radio" name="bronze" id="bronze">
+            <label for="bronze">Bronze</label><br>
+            <input type="radio" name="silver" id="silver">
+            <label for="silver">Silver</label><br>
+            <input type="radio" name="gold" id="gold">
+            <label for="gold">Gold</label><br>
+            <label for="business-desc">Description of Business: </label><br>
+            <textarea name="business-desc" id="business-desc" cols="30" rows="10"></textarea><br>
+            <input type="submit" value="Join Us!" id="join-button">
+            <input type="hidden" value="">
+        </form>
+    </main>
+    <footer>
+        <img src="./imgs/EVC-Logo.jpg" alt="EVC-Logo">
+        <h1>Everett Chamber of Commerce</h1>
+        <h3>21 Ave A #1, Snohomish, WA 98290</h3>
+        <h4>info@Everettcc.com</h4>
+        <h5><a href="https://www.google.com/maps/place/Snohomish+Chamber+of+Commerce/@47.9106878,-122.0964427,17z/data=!3m1!4b1!4m5!3m4!1s0x549aa9b4464d79e7:0x887c0415305eed2c!8m2!3d47.9106934!4d-122.094241">
+            Location Maps
+        </a></h5>
+        <p>&copy; Everett Chamber</p>
+        <h4>Jake Zalesny</h4>
+    </footer>
+</body>
+</html>
