@@ -29,27 +29,28 @@
         </nav>
     </header>
     <main>
-        <form type="GET" action="thankyou.html">
-            <label for="fname">*First Name: </label><br>
+        <form method="GET" action="thankyou.html">
+            <label for="fname">First Name*: </label><br>
             <input type="text" id="fname" placeholder="John" name="fname" required><br>
-            <label for="lname">*Last Name: </label><br>
+            <label for="lname">Last Name*: </label><br>
             <input type="text" id="lname" placeholder="Doe" name="lname" required><br>
+            <!--Add the pattern for the business title.-->
             <label for="business-title">Business Title: </label><br>
             <input type="text" name="business-title" id="business-title"><br>
-            <label for="email">*Email: </label><br>
+            <label for="email">Email*: </label><br>
             <input type="email" name="email" placeholder="youremail@business.com" id="email" required><br>
             <label for="phone-number">*Phone Number: </label><br>
             <input type="tel" name="phone-number" placeholder="(555) 555-5555" id="phone-number" required><br>
-            <label for="business">*Name of Business: </label><br>
+            <label for="business">Name of Business*: </label><br>
             <input type="text" name="business" id="business"><br>
-            <label for="nothing">*Desired Membership level: </label><br>
-            <input type="radio" name="NP" id="NP">
+            <label for="nothing">Desired Membership level*: </label><br>
+            <input type="radio" name="membership" id="NP">
             <label for="NP">NP Organization</label><br>
-            <input type="radio" name="bronze" id="bronze">
+            <input type="radio" name="membership" id="bronze">
             <label for="bronze">Bronze</label><br>
-            <input type="radio" name="silver" id="silver">
+            <input type="radio" name="membership" id="silver">
             <label for="silver">Silver</label><br>
-            <input type="radio" name="gold" id="gold">
+            <input type="radio" name="membership" id="gold">
             <label for="gold">Gold</label><br>
             <label for="business-desc">Description of Business: </label><br>
             <textarea name="business-desc" id="business-desc" cols="30" rows="10"></textarea><br>
