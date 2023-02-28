@@ -1,4 +1,4 @@
 var messageDate = new Date(); 
-if(messageDate.getDay()==6 || messageDate.getDay()==7){
-    document.querySelector("#meet-greet").classList.add('active');
+if(messageDate.getDay()==1 || messageDate.getDay()==2){
+    document.querySelector("#meet-greet").classList.toggle("active");
 }
