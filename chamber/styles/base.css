@@ -210,9 +210,10 @@ footer h5 a:hover {
 
 #meet-greet.active {
     display: block;
-    background-color: var(--alternate-color);
+    background-color: var(--final-alternate);
     padding: 0px;
     margin: 0px;
+    color: white;
 }
 
 #margin-modifiers {
