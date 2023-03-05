@@ -1,5 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Sofia+Sans&display=swap');
+
+:root {
+    --main-color: #2671ab;
+    --alternate-color: #7093a9;
+    --final-alternate: #376a91; 
+    --main-background: #c7ddeb;
+    --display-font-family: 'Lato', sans-serif; 
+    --paragraph-font-family: 'Sofia-Sans', sans-serif; 
+}
+
+header, footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--final-alternate);
+    font: var(--display-font-family);
+    padding-bottom: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header img, footer img {
+    height: 100px;
+    width: 100px;
+    padding-top: 5px; 
+}
+
+header h1 {
+    max-width: 400px;
+    color: white;
+    padding-left: 20px;
+    z-index: 1;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+footer {
+    color: white;
+    font-family: var(--display-font-family);
+}
+
+footer h3 {
+    margin-top: -20px;
+}
+
+footer h4 {
+    margin-top: -10px;
+}
+
+footer h5 a {
+    text-decoration: none;
+    color: white;
+    margin-top: -10px;
+}
+
+footer h5 a:hover {
+    background-color: var(--alternate-color);
+}
+
+#navbar {
+    display: none;
+}
+
+#menu-open {
+    display: none;
+}
+
+#menu-close {
+    display: inline; 
+}
+
+#navbar.menu-active {
+    display: flex;
+}
+
+#menu-open.menu-active {
+    display: inline;
+}
+
+#menu-close.menu-active {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem; 
+    list-style: none;
+    background-color: var(--final-alternate);
+    color: white;
+    padding-inline-start: 0px;
+    margin-block: 0px;
+    width: 100%;
+}
+
+nav ul li {
+    border: 1px solid black;
+    width: 100%;
+    padding: 1rem; 
+    margin-bottom: 2px;
+    border-radius: 20px;
+}
+
+nav ul li:hover {
+    background-color: var(--alternate-color);
+}
+
+button {
+    background-color: var(--alternate-color);
+    color: white;
+    border: 0;
+    font-size: 2rem;
+}
+
+.directory-main {
+    width: 100%;
+}
+
+#directory-selector {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+button.active {
+    background-color: var(--main-background);
+    color: black;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100px;
+    
+}
+
+.directory-cards section img {
+    max-width: 200px;
+}
+
+.directory-cards section a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--paragraph-font-family);
+}
+
+.directory-cards section a:hover {
+    background-color: var(--main-color);
+}
+
+.directory-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    justify-items: center;
+}
+
+.directory-cards section {
+    text-align: center;
+    border: 1px solid black;
+    width: 300px;
+    background-color: var(--final-alternate);
+    color: white;
+    font-family: var(--paragraph-font-family);
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.directory-list {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 1rem; 
+    align-items: center;
+}
+
+.directory-list section img{
+    display: none;
+}
+
 .directory-list section {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    width: 70%; 
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    width: 80%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
 }
+
+.directory-list section:nth-child(odd){
+    background-color: var(--main-color);
+    color: white;
+}
+
+.directory-list section:nth-child(even) {
+    background-color: var(--final-alternate);
+    color: white;
+}
+

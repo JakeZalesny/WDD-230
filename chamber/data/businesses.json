@@ -1,7 +1,86 @@
 {
     "businesses": [
         {
-            "name":"Ezell's Chicken"
+            "name":"Ezell's Chicken",
+            "number": "425-643-2670",
+            "address": "1645 140th Avennue NE, Suite A3, Bellevue, WA 98005",
+            "url": "https://ezellschicken.com/",
+            "img": "./imgs/ezells-logo-promo_0.jpg",
+            "level": "Gold"
+
+        },
+        {
+            "name": "Cassandra's Closet",
+            "number": "425-212-9105",
+            "address": "2723 Colby Ave, Everett, WA 98201",
+            "url": "https://www.facebook.com/cassandrascloseteverett",
+            "img": "./imgs/Cassandras_Closet.jpg",
+            "level": "Silver"
+        },
+        {
+            "name":"Zoey's Fried Chicken Sandwiches and Wings",
+            "number":"425-374-3040",
+            "address": "510 W Casino Rd, Suite G, Everett, WA 98204",
+            "url": "https://www.yelp.com/biz/zoeys-fried-chicken-sandwiches-everett-2",
+            "img": "./imgs/Zoey's-Image.jpg",
+            "level": "Bronze"
+        },
+        {
+            "name":"King's Hall and Apex Art & Culture Center",
+            "number": "425-374-7046",
+            "address":"1611 Everett Avenue, Everett, WA, United States, Washington",
+            "url":"https://www.facebook.com/APEXArtCenter",
+            "img": "./imgs/APEX-Art_Center.jpg",
+            "level":"Gold"
+        },
+        {
+            "name":"Pho Asia Noodle House",
+            "number": "425-423-0537",
+            "address":"607 SE Everett Mall Way, Suite 11 Everett, WA 98208",
+            "url":"https://www.phoasianoodlehouseeverett.com/",
+            "img": "./imgs/Pho-Noodle-House.jpg",
+            "level":"Silver"
+        },
+        {
+            "name":"Buck's American Bar & Grill",
+            "number": "425-258-1351",
+            "address":"2901 Hewitt Ave., Everett, Everett, WA 98201, US",
+            "url":"https://bucksamericancafe.com/",
+            "img": "./imgs/Buck's-American.webp",
+            "level":"Bronze"
+        },
+        {
+            "name":"Colby Diner",
+            "number": "425-252-7419",
+            "address":"2720 Colby Ave Everett, WA 98201",
+            "url":"https://www.yelp.com/biz/colby-diner-everett?osq=breakfast",
+            "img": "./imgs/Colby-Diner.jpg",
+            "level":"Gold"
+        },
+        {
+            "name":"Brooklyn Bros Pizzeria ",
+            "number": "425-258-6900",
+            "address":"1919 Hewitt Ave., Everett, WA, 98201",
+            "url":"https://bbpmenu.com/",
+            "img": "./imgs/BBP-Logo.jpg",
+            "level":"Gold"
+        },
+        {
+            "name":"Brooklyn Bros Pizzeria ",
+            "number": "425-258-6900",
+            "address":"1919 Hewitt Ave., Everett, WA, 98201",
+            "url":"https://bbpmenu.com/",
+            "img": "./imgs/BBP-Logo.jpg",
+            "level":"Gold"
+        },
+        {
+            "name":"Curries In Everett",
+            "number": "425-265-1200",
+            "address":"7318 Evergreen Way, Everett, WA, 98201",
+            "url":"https://curriesineverett.com/",
+            "img": "./imgs/Curries-Logo.png",
+            "level":"Silver"
+
         }
     ]
 }
