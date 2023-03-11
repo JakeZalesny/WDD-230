@@ -34,7 +34,8 @@ function displayResults(weatherData) {
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc; 
-    //wind speed = data.wind.speed
+    // const wind-speed = data.wind.speed
+
 }
   
   apiFetch();

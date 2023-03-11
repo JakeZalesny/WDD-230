@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="./styles/large.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
     <script src="./scripts/chamber-header-footer.js" defer></script>
-    <script src="./scripts/chamber-reorganize-DOM.js" defer></script>
+    <!-- <script src="./scripts/chamber-reorganize-DOM.js" defer></script> -->
     <script src="./scripts/main.js" defer></script>
-    <script src="./scripts/windchill.js" defer></script>
+    <script src="./scripts/weather.js" defer></script>
     <title>Chamber of Commerce Everett</title>
 </head>
 <body>
@@ -55,7 +55,10 @@
             </section>
             <section id="weather" class="text-divides"> <!--Weather-->
                 <h2>Weather</h2>
-                <img src="./imgs/Weather_Chart.png" alt="Expected Weather">
+                <figure>
+                    <img src="" alt="" id="weather-icon">
+                    <figcaption></figcaption>
+                </figure>
                 <h3>Temperature: <span id="temperature"></span> &deg;F</h3>
                 <h3>Wind Speed: <span id="windspeed"></span> mph</h3>
                 <h3>Wind Chill: <span id="windchill"></span> &deg;F</h3>
