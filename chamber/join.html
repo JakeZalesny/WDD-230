@@ -29,34 +29,49 @@
         </nav>
     </header>
     <main>
-        <form method="GET" action="thankyou.html">
-            <label for="fname">First Name*: </label><br>
-            <input type="text" id="fname" placeholder="John" name="fname" required><br>
-            <label for="lname">Last Name*: </label><br>
-            <input type="text" id="lname" placeholder="Doe" name="lname" required><br>
-            <!--Add the pattern for the business title.-->
-            <label for="business-title">Business Title: </label><br>
-            <input type="text" name="business-title" id="business-title"><br>
-            <label for="email">Email*: </label><br>
-            <input type="email" name="email" placeholder="youremail@business.com" id="email" required><br>
-            <label for="phone-number">*Phone Number: </label><br>
-            <input type="tel" name="phone-number" placeholder="(555) 555-5555" id="phone-number" required><br>
-            <label for="business">Name of Business*: </label><br>
-            <input type="text" name="business" id="business"><br>
-            <label for="nothing">Desired Membership level*: </label><br>
-            <input type="radio" name="membership" id="NP">
-            <label for="NP">NP Organization</label><br>
-            <input type="radio" name="membership" id="bronze">
-            <label for="bronze">Bronze</label><br>
-            <input type="radio" name="membership" id="silver">
-            <label for="silver">Silver</label><br>
-            <input type="radio" name="membership" id="gold">
-            <label for="gold">Gold</label><br>
-            <label for="business-desc">Description of Business: </label><br>
-            <textarea name="business-desc" id="business-desc" cols="30" rows="10"></textarea><br>
-            <input type="hidden" name="date" id="curr_date" value="">
-            <input type="submit" value="Join Us!" id="join-button">
-        </form>
+        <div id="description">
+            <h1>Description of Levels: </h1>
+            <h2>NP Membership</h2>
+            <p>For non profits. No fee of membership.</p>
+            <h2 id="bronze">Bronze Membership</h2>
+            <p>15% Discount on events, 5% discount on advertising. 50$ monthly fee.</p>
+            <h2 id="silver">Silver Membership</h2>
+            <p>20% discount on events, 10% discount on advertising, $100 monthly fee.</p>
+            <h2 id="gold">Gold Membership</h2>
+            <p>50% discount on events, 
+            50% discount on advertising, 
+            $200 monthly fee.</p>
+        </div>
+        <div>
+            <form method="GET" action="thankyou.html">
+                <label for="fname">First Name*: </label><br>
+                <input type="text" id="fname" placeholder="John" name="fname" required><br>
+                <label for="lname">Last Name*: </label><br>
+                <input type="text" id="lname" placeholder="Doe" name="lname" required><br>
+                <!--Add the pattern for the business title.-->
+                <label for="business-title">Business Title: </label><br>
+                <input type="text" name="business-title" id="business-title"><br>
+                <label for="email">Email*: </label><br>
+                <input type="email" name="email" placeholder="youremail@business.com" id="email" required><br>
+                <label for="phone-number">*Phone Number: </label><br>
+                <input type="tel" name="phone-number" placeholder="(555) 555-5555" id="phone-number" required><br>
+                <label for="business">Name of Business*: </label><br>
+                <input type="text" name="business" id="business"><br>
+                <label for="nothing">Desired Membership level*: </label><br>
+                <input type="radio" name="membership" id="NP">
+                <label for="NP">NP Organization</label><br>
+                <input type="radio" name="membership" id="bronze">
+                <label for="bronze">Bronze</label><br>
+                <input type="radio" name="membership" id="silver">
+                <label for="silver">Silver</label><br>
+                <input type="radio" name="membership" id="gold">
+                <label for="gold">Gold</label><br>
+                <label for="business-desc">Description of Business: </label><br>
+                <textarea name="business-desc" id="business-desc" cols="30" rows="10"></textarea><br>
+                <input type="hidden" name="date" id="curr_date" value="">
+                <input type="submit" value="Join Us!" id="join-button">
+            </form>
+        </div>
     </main>
     <footer>
         <img src="./imgs/EVC-Logo.jpg" alt="EVC-Logo">

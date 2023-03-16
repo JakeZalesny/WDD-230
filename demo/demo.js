@@ -1,11 +1,11 @@
 const items = [ 
     { name: "Bike", price: 200 },
-    {name: "TV", price: 100},
-    {name: "Album", price: 10},
-    {name: "Book", price: 5},
-    {name: "Phone", price: 300},
-    {name: "Computer", price: 1000},
-    {name: "Keyboard", price: 25}
+    { name: "TV", price: 100 },
+    { name: "Album", price: 10 },
+    { name: "Book", price: 5 },
+    { name: "Phone", price: 300 },
+    { name: "Computer", price: 1000},
+    { name: "Keyboard", price: 25}
 ]
 
 function filterDemo() {
@@ -35,7 +35,7 @@ mapDemo();
 function reduceDemo() {
     const reducedItems = items.reduce((currentTotal, item) => {
         return item.price + currentTotal; 
-    }, 0)
+    }, 1)
 
     console.log("Total Price of Items: ");
     console.log(reducedItems);

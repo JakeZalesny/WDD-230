@@ -37,11 +37,20 @@ header h1 {
 }
 
 main {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     /* background-color: var(--main-background); */
     font: var(--paragraph-font-family);
+}
+
+div form {
+    grid-template-columns: 2/2;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
 }
 
 #hero-text {
@@ -193,4 +202,29 @@ a {
 
 a:hover {
     background-color: var(--main-color);
+}
+
+#description {
+    justify-content: center;
+    align-items: center;
+    background-color: var(--final-alternate);
+    padding: 0.5rem;
+    margin: 20px;
+    margin-top: -190px;
+    max-width: 500px;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: white;
+}
+
+#bronze {
+    color: burlywood;
+}
+
+#silver {
+    color: silver;
+}
+
+#gold {
+    color: gold;
 }
