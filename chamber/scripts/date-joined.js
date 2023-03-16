@@ -7,3 +7,5 @@ let year = todaysDate.getFullYear();
 let currDate = `${day}-${month}-${year}`;
 
 document.querySelector("#curr_date").value = currDate; 
+
+console.log(currDate);
