@@ -156,3 +156,58 @@ nav ul a {
     text-decoration: none;
     color: white;
 }
+
+@media screen and (min-width: 800px) {
+
+    #navbar {
+        display: flex;
+    }
+
+    #menu-open {
+        display: flex;
+    }
+
+    #menu-close {
+        display: inline; 
+    }
+
+    #navbar.menu-active {
+        display: flex;
+    }
+
+    #menu-open.menu-active {
+        display: inline;
+    }
+
+    #menu-close.menu-active {
+        display: none;
+    }
+
+    button {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        padding: 1rem; 
+        list-style: none;
+        background-color: var(--final-alternate);
+        color: white;
+        padding-inline-start: 0px;
+        margin-block: 0px;
+        width: 100%;
+    }
+
+    nav ul li {
+        border: 1px solid black;
+        width: 100%;
+        padding: 1rem; 
+        margin-bottom: 2px;
+        border-radius: 20px;
+    }
+
+    nav ul li:hover {
+        background-color: var(--alternate-color);
+    }
+}

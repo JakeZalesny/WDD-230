@@ -193,7 +193,6 @@ header {
 
 a {
     text-decoration: none;
-    background-color: var(--alternate-color);
     color: white;
     padding: 0.5rem;
     border-radius: 20px;
@@ -210,7 +209,6 @@ a:hover {
     background-color: var(--final-alternate);
     padding: 0.5rem;
     margin: 20px;
-    margin-top: -190px;
     max-width: 500px;
     border: 1px solid black;
     border-radius: 20px;
@@ -227,4 +225,77 @@ a:hover {
 
 #gold {
     color: gold;
+}
+
+#join-submit {
+    text-decoration: none;
+    background-color: var(--main-color);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 20px;
+    margin-bottom: 10px;
+
+}
+
+#join-submit:hover {
+    background-color: var(--alternate-color);
+    color: black;
+}
+
+@media screen and (min-width: 800px) {
+    #navbar {
+        display: flex;
+    }
+    
+    #menu-open {
+        display: flex;
+    }
+    
+    #menu-close {
+        display: inline; 
+    }
+    
+    #navbar.menu-active {
+        display: flex;
+    }
+    
+    #menu-open.menu-active {
+        display: inline;
+    }
+    
+    #menu-close.menu-active {
+        display: none;
+    }
+    
+    button {
+        display: none;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        padding: 1rem; 
+        list-style: none;
+        background-color: var(--final-alternate);
+        color: white;
+        padding-inline-start: 0px;
+        margin-block: 0px;
+        width: 100%;
+    }
+    
+    nav ul li {
+        border: 1px solid black;
+        width: 100%;
+        padding: 1rem; 
+        margin-bottom: 2px;
+        border-radius: 20px;
+    }
+    
+    nav ul li:hover {
+        background-color: var(--alternate-color);
+    }
+
+    #description {
+        margin-top: -190px;
+    }
 }

@@ -234,6 +234,14 @@ button.active {
     button {
         display: none;
     }
+
+    #directory-list {
+        display: flex;
+    }
+
+    #directory-grid {
+        display: flex;
+    }
     
     nav ul {
         display: flex;
