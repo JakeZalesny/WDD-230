@@ -89,7 +89,17 @@ main {
     margin-top: 230px;
     position: absolute;
     z-index: 2;
+    text-decoration: none;
 
+}
+
+#hero-text a {
+    text-decoration: none;
+    color:white;
+}
+
+#hero-text a:hover {
+    color: black;
 }
 
 #hero-text:hover {
