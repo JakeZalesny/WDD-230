@@ -20,7 +20,7 @@ function displayBusinesses(businessList) {
         newDiv.classList.add(`spotlight-${spotlightCount}`);
         spotlightCount++; 
         newDiv.innerHTML = `<h2>${spotlight.name}</h2>
-        <a href="${spotlight.url}"><img src="${spotlight.img}"></a>
+        <a href="${spotlight.url}"><img src="${spotlight.img}" loading = "lazy"></a>
         <p>${spotlight.address}</p>
         <p>${spotlight.number}</p>`
         mainSpotlight.append(newDiv);
