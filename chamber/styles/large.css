@@ -1,9 +1,8 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
     main {
         display: grid;
-        grid-template-areas: "s1 s2 s2 s3"
-                              "s4 s2 s2 s3"
-                              "s5 s6 s6 s3";
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); 
+        grid-template-rows: 200px 200px 200px 200px 200px 200px;
     }
     
     header h1 {
@@ -16,69 +15,90 @@
     }
 
     #hero {
-        grid-area: s2;
-        margin-left: 20px;
+        grid-column: 2/2;
+        grid-row: 1/2;
         padding-right: 110px;
         padding-left: 110px;
         padding-top: 10px;
         padding-bottom: 10px;
-        width: 100px;
-        margin-top: -430px;
-        margin-left: -30px;
+        margin-left: -120px;
+        width: 1000px;
+        margin-top: 200px;
+
+    }
+
+    #hero img {
+        width: 500px;
     }
 
     #logo-img {
         margin-top: 20px;
         margin-left: 20px;
     }
-    .text-divides img  {
-        width: 500px;
+
+    #spotlights img {
+        width: 300px;
+        height: 150px;
     }
 
-    #spotlight img {
-        width: 200px;
+    #spotlights {
+        grid-row: 4/4;
+        grid-column: 3/4;
+        /* margin-top: 1020px; */
+        display: grid;
+        /* margin-bottom: 100px; */
+        margin-left: 50px;
+        padding: 1rem; 
+        margin-top: 20%;
+        margin-bottom: 10%;
     }
 
-    .spotlight {
-        padding: 0rem;
+    #spotlights div {
+        justify-content: center;
+        align-items: center;
+        border: 1px black solid;
+        border-radius: 20px;
+        margin-top: 20px;
+        padding: 1rem; 
 
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
     }
 
     #hero-text {
         margin-top: 300px;
         margin-left: 390px;
     }
-    .spotlight-3 {
-        border: 1px solid black;
-        margin-top: 20px; 
-        min-width: 300px;
-        min-height: 200px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .spotlight-3 img {
-        width: 200px;
-    }
 
     #event {
-        grid-area: s1;
+        grid-column:1/1;
+        grid-row: 1/2;
         width: 400px;
         padding-bottom: 100px;
-        margin-top: 10px;
+        margin-top: 170px;
+        border-radius: 20px;
+        margin-bottom: 30px;
     }
 
     #weather {
-        grid-area: s4;
-        margin-bottom: 0px;
+        grid-column: 1/1;
+        grid-row: 4/5;
         min-width: 0px;
         margin-left: 0px;
         width: 300px;
         padding-bottom: 100px;
         margin-bottom: 10px;
         display: grid;
-        margin-top: 10px;
+        margin-top: -100px;
+        border-radius: 20px;
+    }
+
+    #weather-icon {
+        max-height: 50px;
+        max-width: 50px;
     }
 
     #weather h2{
@@ -86,30 +106,28 @@
     }
 
     #join {
-        grid-area: s5;
+        grid-column: 1/1;
+        grid-row: 6/6;
         width: 400px;
-         margin-top: 10px;
         padding-bottom: 100px;
+        border-radius: 20px;
+        margin-bottom: 90px;
+    }
+
+    .spotlight-3 {
+        margin-bottom: 250px;
     }
 
     #news-release {
-        grid-area: s6;
-        margin-left: 20px;
+        grid-column: 2/2;
+        grid-row: 3/4;
         max-width: 500px;
         padding-bottom: 100px;
-        margin-top: -800px;
-        margin-left: -30px;
+        margin-left: -120px;
+        border-radius: 20px;
+        margin-top: 240px;
     }
 
-    #spotlight {
-        grid-area: s3;
-        display: flex;
-        flex-direction: column;
-        max-width: 250px; 
-        margin-top: -70px;
-        margin-left: -60px;
-        border: 0px;
-    }
     
     .text-divides {
         padding: 0.3rem;

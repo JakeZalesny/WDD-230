@@ -41,10 +41,15 @@ function displayResults(weatherData) {
     
     if(temperature <= 50 && windspeed > 3) {
         let chill = Math.round((35.74 + (0.6215 * temperature))-(35.75 * Math.pow(windspeed, 0.16)) + (0.4275 * temperature * Math.pow(windspeed, 0.16)));
-        // if `${chill}deg&;` use windchillobj.innerHTML;
+        // if `${chill}deg&;` use windchillobj.innerHTML
         windChill.innerHTML = `<strong>${chill}</strong>`;
         console.log(chill);
 
+    }
+
+    else {
+        let chill = 0; 
+        windChill.innerHTML = `<strong>${chill}</strong>`;
     }
 }
 

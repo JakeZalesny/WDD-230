@@ -152,19 +152,6 @@ button {
     font-size: 2rem;
 }
 
-.spotlight {
-    border: 1px solid black;
-    margin-top: 20px; 
-    min-width: 300px;
-    min-height: 200px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-.spotlight img {
-    width: 200px;
-}
 
 footer {
     display: flex;
@@ -202,6 +189,26 @@ footer h5 a:hover {
 
 .spotlight-3 {
     display: none;
+}
+
+#spotlights { 
+    display: flex;
+    flex-direction: row;
+    max-width: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+#spotlights div {
+    border: 1px black solid;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 1rem; 
+
+}
+
+#spotlights img {
+    max-height: 200px; 
 }
 
 #meet-greet {
