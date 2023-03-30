@@ -1,0 +1,170 @@
+:root {
+    --main-color: #32594a; 
+    --primary-alternate: #d79f7f;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 5px 10px var(--main-color);
+}
+
+#navbar {
+    display: none;
+}
+
+#menu-open {
+    display: none;
+}
+
+#menu-close {
+    display: inline; 
+}
+
+#navbar.menu-active {
+    display: flex;
+}
+
+#menu-open.menu-active {
+    display: inline;
+}
+
+#menu-close.menu-active {
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem; 
+    list-style: none;
+    background-color: white;
+    color: black;
+    padding-inline-start: 0px;
+    margin-block: 0px;
+    width: 100%;
+}
+
+nav ul li {
+    width: 100%;
+    padding: 1rem; 
+    margin-bottom: 2px;
+    text-decoration: none;
+}
+
+.third-section ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: larger;
+    margin-top: 45px;
+}
+
+.third-section ul li {
+    padding: 0.5rem;
+}
+
+.third-section ul li:hover {
+    border: 2px solid var(--main-color);
+    border-radius: 20px;
+    color: var(--main-color);
+}
+
+
+button {
+    background-color: white;
+    color: var(--main-color);
+    border: 0;
+    font-size: 2rem;
+}
+
+
+@media screen and (min-width: 900px) {
+
+
+    header img {
+        max-height: 200px;
+    }
+
+    #navbar {
+        display: flex;
+    }
+    
+    #menu-open {
+        display: flex;
+    }
+    
+    #menu-close {
+        display: inline; 
+    }
+    
+    #navbar.menu-active {
+        display: flex;
+    }
+    
+    #menu-open.menu-active {
+        display: inline;
+    }
+    
+    #menu-close.menu-active {
+        display: none;
+    }
+    
+    button {
+        display: none;
+    }
+
+    nav {
+        margin-top: 40px;
+        margin-left: 500px;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        padding: 1rem; 
+        list-style: none;
+        background-color: white;
+        padding-inline-start: 0px;
+        margin-block: 0px;
+        width: 100%;
+    }
+
+
+    nav ul li a:hover {
+        color: var(--main-color);
+    }
+
+    nav ul li:hover {
+        border: 2px solid var(--main-color);
+        border-radius: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        row-gap: 40px;
+    }
+    
+    nav ul li a {
+        width: 100%;
+        padding: 1rem; 
+        margin-bottom: 2px;
+        text-decoration: none;
+        display: block;
+        color: black;
+        font-size: larger;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .third-section {
+        margin-left: 50px;
+    }
+
+
+
+}
