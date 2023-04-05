@@ -12,7 +12,8 @@
         "fat": 0.4,
         "calories": 52,
         "sugar": 10.3
-    }
+    },
+    "img":"./imgs/red-apple.png"
 }, 
 {
     "genus": "Prunus",
@@ -26,7 +27,8 @@
         "fat": 0.1,
         "calories": 15,
         "sugar": 3.2
-    }
+    },
+    "img":"./imgs/Apricot.png"
 }, {
     "genus": "Persea",
     "name": "Avocado",
@@ -39,7 +41,8 @@
         "fat": 14.66,
         "calories": 160,
         "sugar": 0.66
-    }
+    },
+    "img":"./imgs/Avocado.png"
 }, {
     "genus": "Musa",
     "name": "Banana",
@@ -52,7 +55,8 @@
         "fat": 0.2,
         "calories": 96,
         "sugar": 17.2
-    }
+    },
+    "img":"./imgs/Banana.png"
 }, {
     "genus": "Rubus",
     "name": "Blackberry",
@@ -65,7 +69,8 @@
         "fat": 0.4,
         "calories": 40,
         "sugar": 4.5
-    }
+    },
+    "img":"./imgs/Blackberry.png"
 }, {
     "genus": "Fragaria",
     "name": "Blueberry",
@@ -78,7 +83,8 @@
         "fat": 0.4,
         "calories": 29,
         "sugar": 5.4
-    }
+    },
+    "img":"./imgs/Blueberry.png"
 }, {
     "genus": "Prunus",
     "name": "Cherry",
@@ -91,7 +97,8 @@
         "fat": 0.3,
         "calories": 50,
         "sugar": 8
-    }
+    },
+    "img":"./imgs/Cherry.png"
 }, {
     "genus": "Vaccinium",
     "name": "Cranberry",
@@ -104,10 +111,11 @@
         "fat": 0.1,
         "calories": 46,
         "sugar": 4
-    }
+    },
+    "img":"./imgs/Cranberry.png"
 }, {
     "genus": "Selenicereus",
-    "name": "Dragonfruit",
+    "name": "Dragon Fruit",
     "id": 80,
     "family": "Cactaceae",
     "order": "Caryophyllales",
@@ -117,7 +125,8 @@
         "fat": 1.5,
         "calories": 60,
         "sugar": 8
-    }
+    },
+    "img":"./imgs/Dragon-Fruit.png"    
 }, {
     "genus": "Durio",
     "name": "Durian",
@@ -130,7 +139,8 @@
         "fat": 5.3,
         "calories": 147,
         "sugar": 6.75
-    }
+    },
+    "img":"./imgs/Durian.png"
 }, {
     "genus": "Sellowiana",
     "name": "Feijoa",
@@ -143,7 +153,8 @@
         "fat": 0.4,
         "calories": 44,
         "sugar": 3
-    }
+    },
+    "img":"./imgs/Feijoa.png"
 }, {
     "genus": "Ficus",
     "name": "Fig",
@@ -156,7 +167,8 @@
         "fat": 0.3,
         "calories": 74,
         "sugar": 16
-    }
+    },
+    "img":"./imgs/Fig.png"
 }, {
     "genus": "Ribes",
     "name": "Gooseberry",
@@ -169,7 +181,8 @@
         "fat": 0.6,
         "calories": 44,
         "sugar": 0
-    }
+    },
+    "img":"./imgs/Fig.png"
 }, {
     "genus": "Vitis",
     "name": "Grape",
@@ -182,10 +195,11 @@
         "fat": 0.16,
         "calories": 69,
         "sugar": 16
-    }
+    },
+    "img":"./imgs/Grape.png"
 }, {
     "genus": "Malus",
-    "name": "GreenApple",
+    "name": "Green-Apple",
     "id": 72,
     "family": "Rosaceae",
     "order": "Rosales",
@@ -195,7 +209,8 @@
         "fat": 0.1,
         "calories": 21,
         "sugar": 6.4
-    }
+    },
+    "img":"./imgs/Green-Apple.png"
 }, {
     "genus": "Psidium",
     "name": "Guava",
@@ -208,23 +223,11 @@
         "fat": 1,
         "calories": 68,
         "sugar": 9
-    }
-}, {
-    "genus": "Apteryx",
-    "name": "Kiwi",
-    "id": 66,
-    "family": "Actinidiaceae",
-    "order": "Struthioniformes",
-    "nutritions": {
-        "carbohydrates": 15,
-        "protein": 1.1,
-        "fat": 0.5,
-        "calories": 61,
-        "sugar": 9
-    }
+    },
+    "img":"./imgs/Guava.png"
 }, {
     "genus": "Actinidia",
-    "name": "Kiwifruit",
+    "name": "Kiwi-fruit",
     "id": 85,
     "family": "Actinidiaceae",
     "order": "Ericales",
@@ -234,7 +237,8 @@
         "fat": 0.5,
         "calories": 61,
         "sugar": 8.9
-    }
+    },
+    "img":"./imgs/Kiwi.png"
 }, {
     "genus": "Citrus",
     "name": "Lemon",
@@ -247,7 +251,8 @@
         "fat": 0.3,
         "calories": 29,
         "sugar": 2.5
-    }
+    },
+    "img":"./imgs/Lemon.png"
 }, {
     "genus": "Citrus",
     "name": "Lime",
@@ -260,7 +265,8 @@
         "fat": 0.1,
         "calories": 25,
         "sugar": 1.7
-    }
+    },
+    "img":"./imgs/Lemon.png"
 }, {
     "genus": "Vaccinium",
     "name": "Lingonberry",
@@ -273,7 +279,8 @@
         "fat": 0.34,
         "calories": 50,
         "sugar": 5.74
-    }
+    },
+    "img":"./imgs/Lingonberry.png"
 }, {
     "genus": "Litchi",
     "name": "Lychee",
@@ -286,7 +293,8 @@
         "fat": 0.44,
         "calories": 66,
         "sugar": 15
-    }
+    },
+    "img":"./imgs/Lychee.png"
 }, {
     "genus": "Mangifera",
     "name": "Mango",
@@ -299,7 +307,8 @@
         "fat": 0.38,
         "calories": 60,
         "sugar": 13.7
-    }
+    },
+    "img":"./imgs/Mango.png"
 }, {
     "genus": "Cucumis",
     "name": "Melon",
@@ -312,7 +321,8 @@
         "fat": 0,
         "calories": 34,
         "sugar": 8
-    }
+    },
+    "img":"./imgs/Melon.png"
 }, {
     "genus": "Morus",
     "name": "Morus",
@@ -325,7 +335,8 @@
         "fat": 0.39,
         "calories": 43,
         "sugar": 8.1
-    }
+    },
+    "img":"./imgs/Mulberry.png"
 }, {
     "genus": "Citrus",
     "name": "Orange",
@@ -338,7 +349,8 @@
         "fat": 0.2,
         "calories": 43,
         "sugar": 8.2
-    }
+    },
+    "img":"./imgs/Orange.png"
 }, {
     "genus": "Carica",
     "name": "Papaya",
@@ -351,7 +363,8 @@
         "fat": 0.4,
         "calories": 43,
         "sugar": 1
-    }
+    },
+    "img":"./imgs/Papaya.png"
 }, {
     "genus": "Passiflora",
     "name": "Passionfruit",
@@ -364,7 +377,8 @@
         "fat": 0.7,
         "calories": 97,
         "sugar": 11.2
-    }
+    },
+    "img":"./imgs/Passionfruit.png"
 }, {
     "genus": "Prunus",
     "name": "Peach",
@@ -377,7 +391,8 @@
         "fat": 0.25,
         "calories": 39,
         "sugar": 8.4
-    }
+    },
+    "img":"./imgs/Peach.png"
 }, {
     "genus": "Pyrus",
     "name": "Pear",
@@ -390,7 +405,8 @@
         "fat": 0.1,
         "calories": 57,
         "sugar": 10
-    }
+    },
+    "img":"./imgs/Pear.png"
 }, {
     "genus": "Diospyros",
     "name": "Persimmon",
@@ -403,7 +419,8 @@
         "fat": 0,
         "calories": 81,
         "sugar": 18
-    }
+    },
+    "img":"./imgs/Persimmon.png"
 }, {
     "genus": "Ananas",
     "name": "Pineapple",
@@ -416,7 +433,8 @@
         "fat": 0.12,
         "calories": 50,
         "sugar": 9.85
-    }
+    },
+    "img":"./imgs/Pineapple.png"
 }, {
     "genus": "Cactaceae",
     "name": "Pitahaya",
@@ -429,7 +447,8 @@
         "fat": 0.4,
         "calories": 36,
         "sugar": 3
-    }
+    },
+    "img":"./imgs/Dragon-Fruit.png"
 }, {
     "genus": "Prunus",
     "name": "Plum",
@@ -442,7 +461,8 @@
         "fat": 0.28,
         "calories": 46,
         "sugar": 9.92
-    }
+    }, 
+    "img":"./imgs/Plum.png"
 }, {
     "genus": "Punica",
     "name": "Pomegranate",
@@ -455,7 +475,8 @@
         "fat": 1.2,
         "calories": 83,
         "sugar": 13.7
-    }
+    },
+    "img":"./imgs/Pomagranate.png"
 }, {
     "genus": "Rubus",
     "name": "Raspberry",
@@ -468,7 +489,8 @@
         "fat": 0.7,
         "calories": 53,
         "sugar": 4.4
-    }
+    },
+    "img":"./imgs/Raspberry.png"
 }, {
     "genus": "Fragaria",
     "name": "Strawberry",
@@ -481,7 +503,8 @@
         "fat": 0.4,
         "calories": 29,
         "sugar": 5.4
-    }
+    },
+    "img":"./imgs/Strawberry.png"
 }, {
     "genus": "Citrus",
     "name": "Tangerine",
@@ -494,7 +517,8 @@
         "fat": 0.4,
         "calories": 45,
         "sugar": 9.1
-    }
+    },
+    "img":"./imgs/Tangerine.png"
 }, {
     "genus": "Solanum",
     "name": "Tomato",
@@ -507,7 +531,8 @@
         "fat": 0.2,
         "calories": 74,
         "sugar": 2.6
-    }
+    },
+    "img":"./imgs/Tomato.png"
 }, {
     "genus": "Citrullus",
     "name": "Watermelon",
@@ -520,6 +545,7 @@
         "fat": 0.2,
         "calories": 30,
         "sugar": 6
-    }
+    },
+    "img":"./imgs/Watermelon.png"
 }]
 }
