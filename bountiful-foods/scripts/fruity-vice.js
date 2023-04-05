@@ -17,6 +17,7 @@ async function fetchFruit() {
 
 function randomFruits(fruitData) {
     const fruits = document.querySelector("#fruity-icons");
+    const fruit_text = document.querySelector("#fruity-text");
     console.log(typeof(fruitData));
     let main_fruits = [];
     for(let i=0; i < 3; i++) {
@@ -28,10 +29,31 @@ function randomFruits(fruitData) {
     fruit_count = 1; 
     main_fruits.forEach(fruit => {
         const newDiv = document.createElement("div");
+        const textDiv = document.createElement("div");
         newDiv.classList.add(`fruit-${fruit_count}`);
+        textDiv.classList.add(`fruit-${fruit_count}-text`);
         fruit_count++;
-        newDiv.innerHTML = `<h3>${fruit.name}</h3>`
+        if(fruit_count != 4) {
+            newDiv.innerHTML = `
+            <img src="${fruit.img}" alt="${fruit.name}-img" loading="lazy">
+            <h1>+</h1>`;
+            console.log(`First: ${fruit_count}`);
+        }
+        else {
+            newDiv.innerHTML = `<img src="${fruit.img}" alt="${fruit.name}-img" loading="lazy">`;
+            console.log(`Second: ${fruit_count}`);
+        }
         fruits.append(newDiv);
+        textDiv.innerHTML = `
+        <h3>${fruit.name}</h3>
+        <h4>Carbohydrates: ${fruit.nutritions.carbohydrates}</h4>
+        <h4>Protein: ${fruit.nutritions.protein}</h4>
+        <h4>Fat: ${fruit.nutritions.fat}</h4>
+        <h4>Calories: ${fruit.nutritions.calories}</h4>
+        <h4>Sugar: ${fruit.nutritions.sugar}</h4>
+        `
+        fruit_text.append(textDiv);
+
     });
 
 }
