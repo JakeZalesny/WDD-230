@@ -13,11 +13,38 @@ main {
     font-family: var(--display-family);
 }
 
+#forecast {
+    margin: auto;
+    align-items: center;
+    border: 10px var(--main-color) solid;
+    padding: 50px;
+    max-width: 300px;
+    margin-bottom: 50px;
+}
+
+#forecast img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 70px;
+}
+
 header {
     display: flex;
     flex-direction: row;
     box-shadow: 0px 5px 10px var(--main-color);
     font-family: var(--header-family);
+}
+
+footer {
+    box-shadow: 0px 0px 15px var(--main-color);
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+footer img{
+    max-height: 200px;
 }
 
 #navbar {
@@ -91,10 +118,11 @@ button {
 }
 
 main img {
-    margin: auto;
+    /* margin: auto; */
     margin-top: 20px;
     height: 500px;
     align-items: center;
+    z-index: 1;
 }
 
 .social-imgs img {
@@ -121,9 +149,150 @@ main img {
     margin: auto;
 }
 
+#thank-you {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-imgs-footer {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    width: 40px;
+    margin-left: 100px;
+}
+
+.social-imgs-footer img {
+    margin: auto;
+    display: inline-block;
+    width: 40px;    
+}
+
+.footer-text {
+    margin-top: 70px;
+    margin-left: 350px;
+}
+
+#forecast {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about-us-preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+    max-width: 500px;
+    border: 10px solid var(--main-color);
+    background-color: rgba(241, 238, 238, 0.7);
+    z-index: 2;
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+
+.about-us-preview p {
+    max-width: 500px;
+    opacity: 100%;
+}
+
+#past-orders {
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    border: 5px solid var(--main-color);
+    max-width: 200px;
+}
+
+/*FRESH RULES */
+#fresh-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#fresh-main form{
+    margin-top: 40px;
+    margin-left: 550px;
+    max-width: 100px;
+}
+
+#fresh-main input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+#order-now {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#order-now input {
+    display: block;
+    background-color: white;
+    font-size: larger;
+    border: 2px solid var(--main-color);
+    padding: 10px; 
+    border-radius: 20px;
+    font-family: var(--header-family);
+}
+
+#order-now input:hover {
+    color: white;
+    background-color: var(--main-color);
+}
+
+#order-now.fresh-order {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* Order Confirmation */
+
+.order-information {
+    margin: auto;
+    border: 2px solid var(--main-color);
+    padding: 1rem;
+}
+
+/* About Rules */
+#about-main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#about-main img {
+    max-width: 200px;
+    max-height: 200px;
+    justify-content: none;
+    margin: none;
+}
+
+
+#first-section {
+    display: flex;
+    flex-direction: row;
+}
+
+#sub-section {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
 
 @media screen and (min-width: 900px) {
-
 
     header img {
         max-height: 200px;
@@ -241,6 +410,7 @@ main img {
         display: flex;
         flex-direction: row;
         gap: 100px; 
+        position: relative;
     }
 
     #fresh-preview h2 {
@@ -249,32 +419,6 @@ main img {
         border-radius: 20px;
         font-family: var(--header-family);
     }
-
-    #order-now {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-right: 20px;
-    }
-
-    #order-now input {
-        display: block;
-        background-color: white;
-        font-size: larger;
-        border: 2px solid var(--main-color);
-        padding: 10px; 
-        border-radius: 20px;
-        font-family: var(--header-family);
-    }
-
-    #order-now input:hover {
-        color: white;
-        background-color: var(--main-color);
-    }
-
-
-
 
 
 

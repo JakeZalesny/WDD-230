@@ -10,18 +10,19 @@
     <link rel="stylesheet" href="./styles/styles-large.css">
     <script src="./scripts/hamburger-menu.js" defer></script>
     <script src="./scripts/fruity-vice.js" defer></script>
+    <script src="./scripts/weather.js" defer></script>
     <title>Bountiful Foods</title>
 </head>
 <body>
     <header>
-        <img src="./imgs/Bountiful-Foods-Logo.png" alt="Hero-Logo" loading="lazy">
+        <a href="./index.html"><img src="./imgs/Bountiful-Foods-Logo.png" alt="Hero-Logo" loading="lazy"></a>
         <nav>
             <button id="hamburger-menu">
                 <span id="menu-close"> &equiv;</span>
                 <span id="menu-open">X</span>
             </button>
             <ul id="navbar">
-                <li><a href="">Fresh</a></li>
+                <li><a href="./fresh.html">Fresh</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Tours</a></li>
             </ul>
@@ -40,7 +41,27 @@
     </header>
     <main>
         <img src="./imgs/fields-banner.jpg" alt="Aesthetic-Strawberry-Fields" id="strawberry-fields-img" loading="lazy">
-        
+        <div class="about-us-preview">
+            <h3>
+                About Us: 
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Risus ultricies tristique nulla aliquet enim tortor at auctor. 
+                Bibendum neque egestas congue quisque egestas diam. Integer quis auctor elit sed vulputate mi sit. 
+                Nulla facilisi etiam dignissim diam quis enim. Sit amet risus nullam eget felis eget nunc. 
+                Imperdiet massa tincidunt nunc pulvinar. Molestie at elementum eu facilisis sed. 
+                Cursus sit amet dictum sit amet. Dis parturient montes nascetur ridiculus mus mauris vitae. 
+                Vivamus arcu felis bibendum ut tristique et egestas. 
+                Sed augue lacus viverra vitae congue eu consequat ac felis.
+            </p>
+        </div>
+        <section id="forecast">
+            <div>
+                <h2>Current Forecast: </h2>
+            </div>
+
+        </section>
         <div id="fresh-preview">
             <h2>
                 Try these flavors for your next smoothie: 
@@ -54,14 +75,29 @@
 
             </div>
             <div id="order-now">
-                <form method="GET" action="">
+                <form method="GET" action="./order-placed.html" id="order">
                     <input type="submit" name="order-now" value="Order Now!" id="order-button">
                 </form>
             </div>
+            <div id="past-orders">
+
+            </div>
+        </section>
+        <section id="weather-forecast">
+
         </section>
     </main>
     <footer>
-
+        <img src="./imgs/Bountiful-Foods-Logo.png" alt="Hero-Logo" loading="lazy">
+        <div class="footer-text">
+            <p>1050 Cannon Rd, Carlsbad, CA 92008</p>
+            <p>info@BountifulFoodsCo.com</p>
+        </div>
+        <div class="social-imgs-footer">
+            <img src="./imgs/insta-transluscent.png" alt="insta-icon" loading="lazy">
+            <img src="./imgs/twitter-icon.png" alt="twitter-icon" loading="lazy">
+            <img src="./imgs/reddit-icon.png" alt="reddit-icon" loading="lazy">
+        </div>
     </footer>
 </body>
 </html>
