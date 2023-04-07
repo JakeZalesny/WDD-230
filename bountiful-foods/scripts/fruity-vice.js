@@ -49,6 +49,11 @@ function randomFruits(fruitData) {
         fruit_text.append(textDiv);
 
     });
+    fruit_count = 1; 
+    main_fruits.forEach(fruit => {
+        localStorage.setItem(`fruit-${fruit_count}`, fruit.name);
+        fruit_count++; 
+    })
 
 }
 

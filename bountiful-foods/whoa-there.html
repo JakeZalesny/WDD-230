@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A tourist site designed to attract you to our strawberry fields">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./styles/styles-large.css">
     <!-- <script src="./scripts/reorder-header.js" defer></script> -->
+    <script src="./scripts/whoa-there.js" defer></script>
     <script src="./scripts/hamburger-menu.js" defer></script>
-    <script src="./scripts/fruity-vice.js" defer></script>
-    <script src="./scripts/weather.js" defer></script>
-    <title>Bountiful Foods</title>
+    <title>Whoa There!</title>
 </head>
 <body>
     <header>
@@ -35,56 +33,26 @@
         </div>
         <div class="third-section">
             <ul>
-                <li> <a href="./fresh.html"><i class="fa fa-male"></i> Log in</a></li>
-                <li> <a href="./about-us.html"><i class="fa fa-truck"></i> Location</a></li>
+                <li> <i class="fa fa-male"></i> Log in</li>
+                <li> <i class="fa fa-truck"></i> Location</li>
             </ul>
         </div>
     </header>
-    <main>
-        <img src="./imgs/fields-banner.jpg" alt="Aesthetic-Strawberry-Fields" id="strawberry-fields-img" loading="lazy">
-        <div class="about-us-preview">
-            <h3>
-                About Us: 
-            </h3>
-            <p>
-                Carlsbad Strawberry Company has been growing Strawberries for 4 generations and the experience shows. 
-                    Our strawberries are the tastiest around, grown with love and passion. 
-                    We have been in Carlsbad since the 1950’s growing with the city around us, and even seeing Interstate 5 come into being. 
-                    Dedicating ourselves to giving back to the community, we work with local schools, churches, non-profits and more.
-                    When you visit us you are visiting family; we look forward to welcoming you to our Strawberry Fields!
-                </p>
-                <a href="./about-us.html">Click here to learn more!</a>
-        </div>
-        <section id="forecast">
-            <div>
-                <h2>Current Forecast: </h2>
+    <main id="whoa-main">
+        <h1>Whoa there!</h1>
+        <h2>We need a bit more info...</h2>
+        <form action="order-placed.html" method="GET" id="whoa-form">
+            <label for="first-name">*First Name: </label>
+            <input type="text" name="first-name" id="first-name" required>
+            <label for="email">*Email: </label>
+            <input type="email" name="email" id="email" required>
+            <label for="phone">*Phone: </label>
+            <input type="text" name="phone" id="phone">
+            <div id="order-now" class="fresh-order">
+                <input type="submit" name="order-now" value="Order Now!" id="order-button">
             </div>
-
-        </section>
-        <div id="fresh-preview">
-            <h2>
-                Try these flavors for your next smoothie: 
-            </h2>
-        </div>
-        <section id="fruit-wrapper">
-            <div id="fruity-icons">
-
-            </div>
-            <div id="fruity-text">
-
-            </div>
-            <div id="order-now">
-                <form method="GET" action="./whoa-there.html" id="order">
-                    <input type="submit" name="order-now" value="Order Now!" id="order-button">
-                </form>
-            </div>
-            <div id="past-orders">
-
-            </div>
-        </section>
-        <section id="weather-forecast">
-
-        </section>
+        
+        </form>
     </main>
     <footer>
         <img src="./imgs/Bountiful-Foods-Logo.png" alt="Hero-Logo" loading="lazy">
@@ -98,5 +66,6 @@
             <img src="./imgs/reddit-icon.png" alt="reddit-icon" loading="lazy">
         </div>
     </footer>
+
 </body>
 </html>
