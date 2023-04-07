@@ -7,5 +7,7 @@ function toggleMenu() {
 document.querySelector("#hamburger-menu").onclick = toggleMenu; 
 
 const fullDate = new Intl.DateTimeFormat("en-US", {dateStyle: "full"}).format(new Date(document.lastModified));
-
-document.querySelector("#last-modified").textContent = "Last Modified: " + fullDate;
+const newDiv = document.createElement("div")
+newDiv.innerHTML = `<p>Last Modified: ${fullDate}</p>`
+document.querySelector(".footer-text").append(newDiv); 
+console.log("working")
